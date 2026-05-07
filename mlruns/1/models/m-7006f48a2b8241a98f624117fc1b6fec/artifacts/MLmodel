@@ -1,0 +1,23 @@
+artifact_path: file:///C:/Users/Esteban/Data science course/kaggle house price/mlruns/1/models/m-7006f48a2b8241a98f624117fc1b6fec/artifacts
+flavors:
+  lightgbm:
+    code: null
+    data: model.pkl
+    lgb_version: 4.6.0
+    model_class: lightgbm.sklearn.LGBMRegressor
+    serialization_format: cloudpickle
+    skops_trusted_types: null
+  python_function:
+    data: model.pkl
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.lightgbm
+    python_version: 3.12.4
+mlflow_version: 3.10.0
+model_id: m-7006f48a2b8241a98f624117fc1b6fec
+model_size_bytes: 14809413
+model_uuid: m-7006f48a2b8241a98f624117fc1b6fec
+prompts: null
+run_id: 2b69a3c0a1684bfe9aec826e46eecb14
+utc_time_created: '2026-05-04 18:02:03.389654'
